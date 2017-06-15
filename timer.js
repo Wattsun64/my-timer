@@ -11,7 +11,7 @@
     minutes.textContent = m;
     sec.textContent = '0' + s;
 
-    start.addEventListener('click', function(){ t = setInterval(timer, 1000); })
+    start.addEventListener('click', function(){ t = setInterval(timer, 500); })
 
     stop.addEventListener('click', function() { clearInterval(t) })
 
